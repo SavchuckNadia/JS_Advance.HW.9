@@ -1,0 +1,147 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-image: url(./image/free-mockup-1-min.png);
+    width: 100%;
+    height: 790px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.block {
+    margin-left: 301px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-end;
+    position: relative;
+}
+
+h4 {
+    margin-top: 20px;
+    text-align: center;
+    color: red;
+}
+
+.block1 h4 {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.block1,
+.block2 {
+    width: 383px;
+    height: 604px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 58px;
+    margin-top: 40px;
+
+}
+
+form[name=task] {
+    margin-left: 20px;
+    margin-top: 14px;
+}
+
+.block1 {
+    border-right: 6px solid black;
+    overflow: auto;
+}
+
+.content {
+    padding-left: 20px;
+}
+
+.textBlock {
+    width: 280px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid black;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.btn {
+    width: 80px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: rgb(50, 48, 48);
+    color: white;
+    margin-left: 111px;
+
+}
+
+.btn:hover {
+    color: white;
+    border: 2px solid gray;
+}
+
+.btn:focus {
+    box-shadow: none;
+    box-shadow: 0 0 10px rgb(94, 93, 93);
+}
+
+.btn-close:focus {
+    box-shadow: none;
+}
+
+.a,
+.b {
+    width: 675px;
+    position: absolute;
+    top: 191px;
+    left: 429px;
+
+}
+
+.input {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.checkbox {
+    margin: 14px 5px 0 0;
+}
+
+.text {
+    font-size: 25px;
+}
+
+.edit {
+    background-image: url(./image/pencil.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 26px;
+    height: 26px;
+    margin-top: 7px;
+}
+
+.block-task,
+.delete {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.block-task {
+    margin-bottom: 10px;
+}
+
+.save {
+    display: none;
+}

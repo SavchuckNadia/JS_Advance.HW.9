@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="wrapper">
+       
+        <div class="container">
+            <div class="block">
+                <div class="block1" id="tasks">
+                    <h4>Список завдань</h4>
+                    <form class="form-block" name="task"></form>
+                </div>
+                <div class="block2">
+                    <h4>Додати нове завдання</h4>
+                    <form name="f1">
+                        <input class="textBlock" type="text" name="textBlock" id="">
+                        <input name="btn" class="btn add" type="submit" value="додати">
+                        <input name="btn" class="btn save" type="submit" value="save">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="display: none;" class="alert alert-danger alert-dismissible fade show a" role="alert">
+        <strong>Попередження!</strong> 
+        <br>
+        Пусте поле не можна добавити.
+        <button type="button" class="btn-close " id="close1" data-bs-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true"></span>
+        </button>
+      </div>
+      <div style="display: none;"  class="alert alert-danger alert-dismissible fade show  b" role="alert">
+        <strong>Попередження!</strong>
+        <br> Останній таск зі списку ви не можете видалити.
+        <button type="button" class="btn-close" id="close2" data-bs-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true"></span>
+        </button>
+      </div>
+    <script src="./main.js"></script>
+</body>
+</html>
